@@ -1,9 +1,7 @@
 #! /usr/bin/env python
 
 from bcc import BPF
-import time
 import ctypes as ct
-import struct
 
 # define BPF program
 prog = """
